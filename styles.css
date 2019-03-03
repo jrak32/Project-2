@@ -1,47 +1,40 @@
-/*======Global layout secetion=======*/
-
-* {
-box-sizing: border-box;
+header {
+  background-color: OldLace;
 }
-
-
-
-.image {
-  max-width: 100%;
+body {
+  width: 100%;
 }
-
-
-
-
-
-/*====Header and navigation bar======*/
 
 ul {
   list-style-type: none;
 }
-
-li {
-  background: lightgrey;
-  border: 1px solid black;
-  border-radius: 10%;
-  margin-bottom: 15px;
-}
-
-
-
-/*====Layout Contianers======*/
-
-.wrapper {
+header,
+main {
   text-align: center;
-  margin-left: 15px;
-  margin-right: 15px;
 }
 
-.introduction {
-  background: grey;
+nav li {
+  border: 1px solid black;
+  margin-bottom: 20px;
+  background-color: white;
+  width: 50%;
+  border-radius: 30%;
 }
 
+.Images {
+  width: 100%;
+}
 
+p {
+  font-size: 20px;
+}
 
+#Portfolio {
+  font-size: 40px;
+}
 
-/*=====Skills=====*/
+.about-me p {
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-bottom: 50px;
+}
