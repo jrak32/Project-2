@@ -13,6 +13,10 @@ main {
   text-align: center;
 }
 
+main {
+  background-color: white;
+}
+
 nav li {
   border: 1px solid black;
   margin-bottom: 20px;
@@ -37,4 +41,24 @@ p {
   padding-left: 120px;
   padding-right: 120px;
   padding-bottom: 50px;
+}
+
+.skills {
+  background: lightgrey;
+}
+
+footer {
+  background: lightgrey;
+}
+
+footer a {
+  align: right;
+}
+
+.skills ul {
+  padding: none;
+}
+
+h3 {
+  font-family: 'Oswald', sans-serif;
 }
