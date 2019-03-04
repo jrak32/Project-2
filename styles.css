@@ -61,6 +61,7 @@ body {
 
 .Contact {
   background-color: lightgrey;
+  border: 2px solid black;
 }
 
 .Col {
@@ -78,9 +79,8 @@ ul {
 /*====Footer Styles====*/
 footer {
   max-width: 100%;
-  margin-top: 50px;
+  margin: 0px;
   background-color: lightgrey;
-  border: 1px solid black;
 }
 
 .bottom-name {
