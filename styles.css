@@ -98,40 +98,19 @@ footer {
 
 /*===Media Quiries*/
 @media (min-width: 768px) {
-  body {
-       max-width: ;
-   }
+
    .Col {
      max-width: 50%;
         float: right;
         margin: 0 auto;
+        padding-left: 20px;
+        padding-right: 20px;
    }
-   .Contact {
-     width: 100%;
-   }
+
 
    .skills {
      width: 50%;
    }
 
 
-
-
-  /* .Search,
-   .Map,
-   .Calculator,
-   .Contact {
-     float: right;
-     width: 50%;
-     margin: auto;
-   }
-   .Marketing,
-   .Travel,
-   .Photo,
-   .Skills {
-     float: left;
-     width: 50%;
-     margin: auto;
-   }
-*/
 }
