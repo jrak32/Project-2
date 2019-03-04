@@ -104,7 +104,15 @@ footer {
    .Col {
      max-width: 50%;
         float: right;
-        margin: auto;
+        margin: 0 auto;
+   }
+   .Contact {
+     float: ;
+     width: 50%;
+   }
+
+   .skills {
+     width: 50%;
    }
 
 
