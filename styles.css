@@ -2,17 +2,23 @@
   box-sizing: border-box;
 }
 
+h2,
+h3 {
+  font-family: 'Oswald', sans-serif;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing:
+}
+
+
+/*====Header styles====*/
 header {
   max-width: 100%;
   background-color: lightgrey;
   padding-top: 1.5em;
   padding-bottom: 1.5em;
   margin-bottom: 30px;
-}
-
-footer {
-  max-width: 100%;
-  background-color: lightgrey;
 }
 
 .name,
@@ -26,8 +32,16 @@ nav li {
 
 nav li {
   background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
+.about-me p {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+/*====Body Styles====*/
 .Images {
   width: 100%;
 }
@@ -35,6 +49,7 @@ nav li {
 body {
   text-align: center;
 }
+
 
 .skills li {
   list-style: none;
@@ -57,4 +72,59 @@ ul {
   padding: 0;
   margin-left: 30px;
   margin-right: 30px;
+}
+
+
+/*====Footer Styles====*/
+footer {
+  max-width: 100%;
+  background-color: lightgrey;
+  clear: both;
+}
+
+.bottom-name {
+  float: left;
+}
+
+.top-link {
+  float: right;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*===Media Quiries*/
+@media (min-width: 768px) {
+  body {
+       max-width: 768px;
+   }
+   .Col {
+     max-width: 50%;
+        float: right;
+        margin: auto;
+   }
+
+
+
+
+  /* .Search,
+   .Map,
+   .Calculator,
+   .Contact {
+     float: right;
+     width: 50%;
+     margin: auto;
+   }
+   .Marketing,
+   .Travel,
+   .Photo,
+   .Skills {
+     float: left;
+     width: 50%;
+     margin: auto;
+   }
+*/
 }
