@@ -99,7 +99,7 @@ footer {
 /*===Media Quiries*/
 @media (min-width: 768px) {
   body {
-       max-width: 768px;
+       max-width: ;
    }
    .Col {
      max-width: 50%;
@@ -107,7 +107,6 @@ footer {
         margin: 0 auto;
    }
    .Contact {
-     float: ;
      width: 50%;
    }
 
