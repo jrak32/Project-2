@@ -5,6 +5,7 @@
 h2,
 h3 {
   font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
 }
 p {
   font-family: 'Roboto', sans-serif;
@@ -37,8 +38,7 @@ nav li {
 }
 
 .about-me p {
-  padding-left: 25px;
-  padding-right: 25px;
+  padding: 50px 30px;
 }
 
 /*====Body Styles====*/
@@ -61,7 +61,12 @@ body {
 
 .Contact {
   background-color: lightgrey;
-  border: 2px solid black;
+  border-bottom: 2px solid black;
+  padding-top: 15px;
+}
+.Contact p {
+  padding-left: 75px;
+  padding-right: 75px;
 }
 
 .Col {
@@ -79,16 +84,19 @@ ul {
 /*====Footer Styles====*/
 footer {
   max-width: 100%;
-  margin: 0px;
+  margin-top: 0px;
   background-color: lightgrey;
+
 }
 
 .bottom-name {
   float: left;
+  margin-top: 0;
 }
 
 .top-link {
   float: right;
+  margin-bottom: 0;
 }
 
 .clearfix::after {
@@ -110,20 +118,46 @@ footer {
 
    .cover-photo {
      float: right;
+     width: 340px;
+     height: 200px;
+     padding-right: 20px;
    }
 
    .about-me p {
      font-size: 20px;
-     padding-right: 30px;
+     padding: 30px 300px 30px 20px;
    }
 
-   nav ul {
-     display: block;
+   nav li {
+     display: inline;
+     padding: 0px 30px;
    }
 
    .Contact {
      display: block;
-
    }
 
+   .Contact p {
+     padding: 0 200px;
+   }
+
+   .name {
+     margin-top: 15px;
+   }
+
+}
+
+@media (min-width: 1024px) {
+
+  .Col {
+    max-width: 33%;
+    margin-bottom: 30px;
+  }
+  .name {
+    float: left;
+  }
+
+  nav ul {
+    float: right;
+  }
 }
