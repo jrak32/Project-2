@@ -44,6 +44,10 @@ nav li {
   font-size: 20px;
 }
 
+.cover-photo {
+  max-width: 90%;
+}
+
 /*====Body Styles====*/
 .Images {
   width: 100%;
@@ -149,6 +153,7 @@ footer {
      margin-top: 15px;
    }
 
+
 }
 
 @media (min-width: 1024px) {
@@ -170,4 +175,5 @@ footer {
       font-size: 30px;
       padding-left: 20px;
     }
+
 }
